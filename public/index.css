@@ -1,0 +1,81 @@
+.img-cat
+{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.avatar
+{
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+.ctTxt
+{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.bg-cat
+{
+    background-color: #ecf0f1;
+    position: relative;
+}
+.tg-btn-cat
+{
+    border:none;
+    color:#e74c3c;
+    font-weight: 600;
+    outline: none !important;
+}
+.head-cat
+{
+    top:1%;
+    left:1%;
+}
+.selc
+{
+    font-weight: 600;
+    color: #e67e22;
+}
+.img-prod
+{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.prod-card
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.prod-space
+{
+    justify-content: left;
+    align-items: center;
+}
+.page-prod
+{
+    margin:5px
+}
+.prod-dname
+{
+    font-weight: 600;
+    margin:5px
+}
+.prod-price
+{
+    margin: 5px;
+}
+.prod-var
+{
+    margin: 5px;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "task28sept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^4.3.0",
+    "babel-loader": "^7.1.4",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "dependencies": {
+    "@babel/register": "^7.11.5",
+    "axios": "^0.20.0",
+    "config": "^3.3.1",
+    "css-loader": "^3.5.3",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "ignore-styles": "^5.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "style-loader": "^1.2.1"
+  }
+}

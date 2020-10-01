@@ -31,8 +31,9 @@ const Product = (props) => {
     </div>)
     )
 }
-const mapStateToP = (state) => {
-    return state
+const mapStateToP = (state,ownProps) => {
+    return ownProps.preProd?{state,products:ownProps.preProd}:state
+
 }
 const mapDispatchToP = (dispatch) => {
     return {

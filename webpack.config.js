@@ -7,6 +7,7 @@ module.exports = {
     entry: path.join(__dirname, 'client', 'index.js'),
     output: {
         path: path.join(__dirname, 'public', 'dist'),
+        libraryTarget:'umd',
         filename: 'index.bundle.js'
     },
     devServer: {
